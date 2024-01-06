@@ -1,4 +1,11 @@
-# ChrishaciaCom
+# chrishacia.com
+This is nothing more than my own litte personal web site, nothing too special here. Not as far as I am concerned. Just wanted to share it with those who are interested from a coding perspective.
+This is also me learning Angular at the same time, so, apologies if this isn't done 100%. Please point it out to me. I always welcome feedback!
+
+Live version: [http://chrishacia.com](http://chrishacia.com)
+
+---
+# Stock Angular README
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
@@ -25,4 +32,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# chrishacia.com

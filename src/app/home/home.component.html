@@ -1,0 +1,8 @@
+<div *ngFor="let repo of repos">
+  <h5>{{ repo.name }}</h5>
+  <ul>
+    <li *ngFor="let commit of repo.commits">
+      {{ commit.commit.message }}
+    </li>
+  </ul>
+</div>
