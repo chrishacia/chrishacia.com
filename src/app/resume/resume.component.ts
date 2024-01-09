@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent {
+  skills: string[] = [];
+
+  constructor() { }
 
 }
