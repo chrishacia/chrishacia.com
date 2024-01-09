@@ -28,11 +28,22 @@ export class GithubService {
       .pipe(catchError(this.handleError));
   }
 
-  getCommits(owner: string, repo: string): Observable<any[]> {
+  // getCommits(owner: string, repo: string): Observable<any[]> {
+  //   return this.http.get<any[]>(`${this.apiUrl}/repos/${owner}/${repo}/commits`)
+  //   .pipe(
+  //     map(commits => commits.slice(0, 5)), // Get only the last 5 commits
+  //     catchError(this.handleError) // then handle the error
+  //   );
+  // }
+
+  getCommits(owner: string, repo: string): Promise<any[]> {
     return this.http.get<any[]>(`${this.apiUrl}/repos/${owner}/${repo}/commits`)
-    .pipe(
-      map(commits => commits.slice(0, 5)), // Get only the last 5 commits
-      catchError(this.handleError) // then handle the error
-    );
+      .toPromise()
+      .then((response = []) => response.slice(0, 5) as any[]) // Get only the last 5 commits
+      .catch(error => {
+        console.error('Error fetching commits:', error);
+        return []; // Return an empty array in case of an error
+      });
   }
+
 }

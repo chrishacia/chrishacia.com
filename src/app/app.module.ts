@@ -8,12 +8,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { pageComponents, routes } from './routes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { GitCommitsWidgetComponent } from './git-commits-widget/git-commits-widget.component';
 
 @NgModule({
   declarations: [
     ...pageComponents,
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    GitCommitsWidgetComponent
   ],
   imports: [
     AppRoutingModule,

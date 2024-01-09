@@ -1,8 +1,11 @@
-<div *ngFor="let repo of repos">
-  <h5>{{ repo.name }}</h5>
-  <ul>
-    <li *ngFor="let commit of repo.commits">
-      {{ commit.commit.message }}
-    </li>
-  </ul>
+<div class="d-flex flex-row">
+  <div class="flex-grow-1 flex-shrink-1 p-2">
+    Column 2
+  </div>
+
+  <div class="flex-grow-1 flex-shrink-1 p-2" style="max-width: 33%;">
+
+    <app-git-commits-widget></app-git-commits-widget>
+
+  </div>
 </div>
