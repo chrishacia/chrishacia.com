@@ -9,13 +9,15 @@ import { pageComponents, routes } from './routes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { GitCommitsWidgetComponent } from './git-commits-widget/git-commits-widget.component';
+import { ResumeWidgetComponent } from './resume-widget/resume-widget.component';
 
 @NgModule({
   declarations: [
     ...pageComponents,
     AppComponent,
     SidebarComponent,
-    GitCommitsWidgetComponent
+    GitCommitsWidgetComponent,
+    ResumeWidgetComponent
   ],
   imports: [
     AppRoutingModule,
