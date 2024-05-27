@@ -20,7 +20,8 @@ export class ContactComponent implements OnInit {
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       message: ['', Validators.required],
-      subject: ['', Validators.required]
+      subject: ['', Validators.required],
+      message_type: ['contact']
     });
   }
 
