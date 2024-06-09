@@ -12,15 +12,14 @@ export class GitCommitsWidgetComponent {
   username = 'chrishacia'; // Example username, you can make this dynamic
   repos: any[] = [];
   selectRepos: any[] = [
-    'domainsvault', 'domainsvault-be', 'slapjs.com', 'slapjs-react-uploader', 'chrishacia.com'
+    'blankpage.org', 'chrishacia.com', 'domainsvault', 'slapjs.com',
   ];
   gitDescriptions: GitDescription =
     {
+      'blankpage.org': 'BlankPage.org: A collaborative real-time text editor. Written with Node.js, Express.js, it features Socket.io, MySQL, Bootstrap, and more.',
+      'chrishacia.com': 'My personal website. Written with Angular and Bootstrap',
       'domainsvault': 'A very basic domain parking and reselling page. Written with Angular, ExpressJS, and MySQL',
-      'domainsvault-be': 'Backend for DomainsVault repo (written in Node.js and Express.js)',
       'slapjs.com': 'SlapJS.com: Accelerate web development with this Node.js, Express.js, and React.js boilerplate. Featuring MySQL, Bootstrap, SASS, and more, it streamlines building dynamic sites and services, focusing on rapid innovation and user experience.',
-      'slapjs-react-uploader': 'This is a very basic, styleless, standard HTML file input form. To demonstrate how to manage the file input with react',
-      'chrishacia.com': 'My personal website. Written with Angular and Bootstrap'
     };
 
   constructor(private githubService: GithubService) { }
