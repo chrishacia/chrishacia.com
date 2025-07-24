@@ -2,7 +2,7 @@
 This is nothing more than my own litte personal web site, nothing too special here. Not as far as I am concerned. Just wanted to share it with those who are interested from a coding perspective.
 This is also me learning Angular at the same time, so, apologies if this isn't done 100%. Please point it out to me. I always welcome feedback!
 
-Live version: [http://chrishacia.com](http://chrishacia.com)
+Live version: [https://chrishacia.com](https://chrishacia.com)
 
 ---
 # Stock Angular README
