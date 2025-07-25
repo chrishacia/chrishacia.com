@@ -1,49 +1,27 @@
-<h2 class="h1-responsive font-weight-bold my-4"><i class="bi bi-pc-display-horizontal"></i> Projects</h2>
+<h2 class="h1-responsive font-weight-bold my-4">
+  <i class="bi bi-pc-display-horizontal"></i> Projects
+</h2>
 <p>
-  These are projects of my past, present, future, and occasional hyperfocus. I have a lot of ideas, and I'm always looking for new ones.  If you have an idea, and you need a developer, please <a reouterLink="/contact">contact me</a>.
-  This page will primarily serve as a place for me to keep track of my own projects, colaborations, and ideas.
+  These are projects of my past, present, future, and occasional hyperfocus. I have a lot of ideas,
+  and I'm always looking for new ones. If you have an idea, and you need a developer, please
+  <a routerLink="/contact">contact me</a>. This page will primarily serve as a place for me to
+  keep track of my own projects, collaborations, and ideas.
 </p>
-<div class="d-flex flex-row">
 
-  <div class="card m-2" style="width: 18rem;">
-    <img src="/assets/screens/chrishacia.com.png" class="card-img-top" alt="Chris Hacia Website">
+<div class="d-flex flex-row flex-wrap">
+  <div class="card m-2" style="width: 18rem;" *ngFor="let p of projects">
+    <img class="card-img-top" [src]="p.imageSrc" [alt]="p.alt" />
     <div class="card-body">
-      <h5 class="card-title">Personal Website</h5>
-      <p class="card-text">Just my own little slice of the www :-)</p>
-      <a href="https://github.com/chrishacia/chrishacia.com" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i> GitHub</a>
+      <h5 class="card-title">{{ p.title }}</h5>
+      <p class="card-text">{{ p.text }}</p>
+
+      <a *ngIf="p.githubLink" [href]="p.githubLink" target="_blank" class="btn btn-primary">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+
+      <a *ngIf="p.liveLink" [href]="p.liveLink" target="_blank" class="btn btn-dark mx-2">
+        <i class="bi bi-globe2"></i> Live
+      </a>
     </div>
   </div>
-
-  <div class="card m-2" style="width: 18rem;">
-    <img src="/assets/screens/domainsvault.com.png" class="card-img-top" alt="Domains Vault Website">
-    <div class="card-body">
-      <h5 class="card-title">Domains Vault</h5>
-      <p class="card-text">This is a domain parking and reselling page I have been working on for my own personal use. Though anyone is free to use it should they like.</p>
-      <a href="https://github.com/chrishacia/domainsvault" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i> GitHub</a>
-      <a href="http://domainsvault.com" target="_blank" class="btn btn-dark mx-2"><i class="bi bi-globe2"></i> Live</a>
-    </div>
-  </div>
-
-  <div class="card m-2" style="width: 18rem;">
-    <img src="/assets/screens/adhddev_simple_chat.png" class="card-img-top" alt="ADHD Dev Simple Chat">
-    <div class="card-body">
-      <h5 class="card-title">ADHD Dev Simple Chat</h5>
-      <p class="card-text">This project demonstrates how to create a simple chatbot using HTML, CSS, and JavaScript.</p>
-      <a href="https://github.com/adhddev/simple-chatbot/" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i> GitHub</a>
-      <a href="https://adhddev.github.io/simple-chatbot/" target="_blank" class="btn btn-dark mx-2"><i class="bi bi-globe2"></i> Live</a>
-    </div>
-  </div>
-
-  <div class="card m-2" style="width: 18rem;">
-    <img src="/assets/screens/blankpage.org.png" class="card-img-top" alt="ADHD Dev Simple Chat">
-    <div class="card-body">
-      <h5 class="card-title">Blank Page</h5>
-      <p class="card-text">
-        Just a small, real-time collaborative text editor. I made this to learn more about websockets and real-time communication. It's a work in progress, but it's a fun little project.
-      </p>
-      <a href="https://github.com/chrishacia/blankpage.org" target="_blank" class="btn btn-primary"><i class="bi bi-github"></i> GitHub</a>
-      <a href="https://blankpage.org" target="_blank" class="btn btn-dark mx-2"><i class="bi bi-globe2"></i> Live</a>
-    </div>
-  </div>
-
 </div>
