@@ -64,5 +64,28 @@
     "alt": "Walmart Cart Cleaner Logo",
     "text": "This Chrome extension automates the process of removing all items from your Walmart shopping cart. It finds and clicks all \"Remove\" buttons in the cart at 1.3‑second intervals, simulating what a user would do manually.",
     "githubLink": "https://github.com/chrishacia/WalmartClearCart"
+  },
+  {
+    "title": "ZipDrop",
+    "imageSrc": "/assets/screens/ZipDrop_logo.png",
+    "alt": "ZipDrop Logo",
+    "text": "ZipDrop is a simple tool to create ZIP archives from selected folders, excluding specified patterns. Use the controls below to select a folder and manage exclusion patterns.",
+    "githubLink": "https://github.com/chrishacia/ZipDrop",
+    "liveLink": "https://chrishacia.github.io/ZipDrop"
+  },
+  {
+    "title": "CommuteCalculator",
+    "imageSrc": "/assets/screens/CommuteCalculator_screen.png",
+    "alt": "CommuteCalculator Screenshot",
+    "text": "A little tool I created to calculate my daily commute expenses.",
+    "githubLink": "https://github.com/chrishacia/CommuteCalculator",
+    "liveLink": "https://chrishacia.github.io/CommuteCalculator"
+  },
+  {
+    "title": "StatusZen",
+    "imageSrc": "/assets/screens/StatusZen.png",
+    "alt": "StatusZen Logo",
+    "text": "A comprehensive list of HTTP status codes and their descriptions, organized for use in various programming languages",
+    "githubLink": "https://github.com/CoderLifeNet/StatusZen"
   }
 ]

@@ -2,108 +2,119 @@
     "career_history": [
         {
             "company": "John Deere",
-            "location": "Iowa, USA (Remote)",
+            "location": "Remote",
             "duration": "Mar 2024 – Nov 2024",
-            "title": "Software Engineer",
+            "title": "Senior Software Engineer",
             "responsibilities": [
-                "Developed and deployed tools for large-scale landscaping providers, utilizing Google Maps, ReactJS, Node.js, Redux, and Hapi.js to create user-friendly interfaces for property management and crew scheduling.",
-                "Implemented a feature allowing users to define and visualize property features, significantly improving the efficiency of landscaping operations.",
-                "Optimized backend processes for crew and equipment management, resulting in a 15% reduction in processing time and enhanced data accuracy."
+                "Built frontend features for a provider portal using React + TypeScript with responsive, accessible UI (WCAG).",
+                "Integrated React modules with Node.js/Hapi services and PostgreSQL backends for CRUD flows.",
+                "Added Jest tests for core components and wired test runs into Jenkins to block unsafe merges.",
+                "Partnered with DevOps to containerize select services in Docker and deploy on AWS (EC2/S3)."
             ]
         },
         {
             "company": "Blackline Safety",
-            "location": "Calgary, Alberta, Canada (Remote)",
+            "location": "Remote",
             "duration": "May 2022 – Mar 2024",
-            "title": "Software Engineer",
+            "title": "Senior Software Engineer",
             "responsibilities": [
-                "Engineered and maintained real-time communication systems using Node.js, Socket.io, and Express.js, enabling seamless interaction between off-site hardware and web services.",
-                "Collaborated on multi-disciplinary projects utilizing Angular, Python, PHP (Zend Framework), and MySQL to deliver scalable solutions across various repositories.",
-                "Deployed AWS Lambda functions for efficient serverless processing, improving data management and report generation by 20%."
+                "Led parts of an Angular (v10+) rewrite for a real-time telemetry dashboard; standardized UI with component library theming.",
+                "Built data processing with Node.js Lambdas on AWS (Lambda + API Gateway) into MongoDB/PostgreSQL stores.",
+                "Maintained legacy integrations in PHP (Zend) and Python; refactored modules for readability and testability.",
+                "Kept unit tests running in Jasmine/Karma and Pytest, enforced via GitHub Actions.",
+                "Mentored junior engineers via code reviews and architecture walkthroughs."
             ]
         },
         {
-            "company": "Facebook (Contingent Worker via Pyramid Consulting)",
+            "company": "Facebook (Meta)",
             "location": "Remote",
             "duration": "Oct 2021 – Apr 2022",
-            "title": "Software Engineer III",
+            "title": "Software Engineer III (Contract)",
             "responsibilities": [
-                "Developed internal tools for file management and process automation using React.js, GraphQL via Relay.js, Flow.js, and PHP/HACK.",
-                "Improved tooling efficiency by 25% by refactoring legacy code and optimizing workflows, resulting in better resource management and faster execution times."
+                "Delivered features for internal admin tools using React + GraphQL; collaborated on schema design and UI contracts.",
+                "Consumed Hack (PHP variant) microservices; maintained strict typing and internal CI/testing standards.",
+                "Documented reusable patterns for React hooks/state and shared them with adjacent teams."
             ]
         },
         {
-            "company": "Cognizant",
+            "company": "Wells Fargo",
             "location": "Remote",
             "duration": "Apr 2021 – Oct 2021",
-            "title": "Software Engineer",
+            "title": "Software Engineer (Contract)",
             "responsibilities": [
-                "Contributed to the Investor Guidance Team at Wells Fargo, enhancing user experience and ADA compliance through jQuery and JAVA.",
-                "Led the implementation of ADA features, ensuring the platform met regulatory standards and provided an inclusive user experience."
+                "Maintained UI for a Java-backed billing platform with JSP, jQuery, Bootstrap focusing on cross-browser performance.",
+                "Automated key workflows with Selenium; collaborated on accessibility checks with internal tooling.",
+                "Supported sprint planning, QA handoffs, and production hotfixes."
             ]
         },
         {
-            "company": "Intuit (Contingent Worker via Pyramid Consulting)",
+            "company": "Intuit",
             "location": "Remote",
             "duration": "Apr 2020 – Apr 2021",
-            "title": "Software Engineer II",
+            "title": "Software Engineer II (Contract)",
             "responsibilities": [
-                "Played a key role in the QuickBooks ProAdvisor Accountant team, developing new features and components using ReactJS and GraphQL.",
-                "Refactored legacy code into modern ReactJS components, improving code maintainability and reducing technical debt.",
-                "Created comprehensive unit tests using Jest, ensuring high code quality and reliability."
+                "Built React + TypeScript and GraphQL features for QuickBooks web UI.",
+                "Partnered with backend teams on schema design and endpoint contracts (validated via GraphiQL/Postman).",
+                "Added Jest tests to critical modules and integrated with Jenkins for CI enforcement.",
+                "Reviewed designs to ensure accessibility and faithful implementation."
             ]
         },
         {
-            "company": "Walmart Labs (Contingent Worker via Pyramid Consulting)",
+            "company": "Walmart Labs",
             "location": "Sunnyvale, CA",
             "duration": "Sep 2019 – Apr 2020",
-            "title": "Senior Software Engineer & Developer",
+            "title": "Senior Software Engineer",
             "responsibilities": [
-                "Developed and maintained user account and transaction history features on Walmart.com using Hapi.js, Node.js, ReactJS, Redux, and GraphQL.",
-                "Built end-to-end automation tests with Nightwatch.js, integrated into CI/CD pipelines using Jenkins, improving testing efficiency and reducing release cycle time.",
-                "Enhanced frontend and proxy layer components, contributing to a more seamless user experience."
+                "Delivered React/Redux modules for account management, integrating with Java/Spring REST services.",
+                "Implemented consistent UI with Material UI, responsive breakpoints, and linting/formatting standards.",
+                "Wrote Jest/Enzyme tests and worked with DevOps to include them in CI."
             ]
         },
         {
             "company": "Cisco",
             "location": "San Jose, CA",
             "duration": "Jun 2019 – Sep 2019",
-            "title": "Senior Software Engineer & Developer",
+            "title": "Senior Software Engineer",
             "responsibilities": [
-                "Developed automated end-to-end testing suites using CodeCeptJS, improving testing coverage and reliability for internal tools.",
-                "Enhanced client-facing tooling using NodeJS, ExpressJS, MongoDB, jQuery, ReactJS, and Redux, delivering new features and improving existing functionalities.",
-                "Redeveloped middleware communication processes with Axios.js, optimizing server-client interactions and improving data transfer efficiency."
+                "Shipped React frontends for internal collaboration tools; wrote Jest/Enzyme unit tests.",
+                "Built Node.js microservices that persisted analytics to MongoDB and surfaced data via Elasticsearch.",
+                "Automated builds in Jenkins, produced Docker images, and coordinated deployments to AWS EC2."
             ]
         },
         {
             "company": "Guardian Alliance Technologies",
             "location": "Stockton, CA",
             "duration": "Sep 2017 – Apr 2019",
-            "title": "Lead & Senior Software Engineer Full Stack Developer",
+            "title": "Lead Software Engineer, Co-founder",
             "responsibilities": [
-                "Led the development of a FedRAMP-compliant SaaS application for background investigations in the public safety sector using CodeIgniter and Symfony PHP MVC frameworks.",
-                "Managed parallel development teams, both local and offshore, as well as a QA team, ensuring timely delivery of high-quality software.",
-                "Oversaw the services architecture, from server management to deployment, utilizing AWS EC2, S3, and Glacier for scalable infrastructure."
+                "Co-architected a CJIS-aware SaaS using PHP (CodeIgniter) and Node.js with multi-tenant MySQL/PostgreSQL.",
+                "Managed AWS GovCloud resources (EC2, RDS, S3) with least-privilege IAM; maintained audit logging.",
+                "Implemented OWASP-aligned practices and prepared for FedRAMP-style reviews.",
+                "Built Jenkins pipelines to run PHP/Node tests and ship containerized services (ECS where applicable).",
+                "Led standups, reviews, and mentoring for a team of five."
             ]
         },
         {
             "company": "MindSlap",
             "location": "Stockton, CA",
             "duration": "Aug 2016 – Sep 2017",
-            "title": "Lead & Senior Software Engineer Full Stack Developer",
+            "title": "Lead Software Engineer",
             "responsibilities": [
-                "Led full-stack development projects across various platforms, enhancing and maintaining older systems using CodeIgniter, Zend Framework, and WordPress CMS.",
-                "Managed AWS EC2 instances and DigitalOcean Droplets, ensuring reliable and scalable hosting environments for multiple client projects."
+                "Delivered client projects: React frontends, PHP (CodeIgniter) services, and WordPress-driven microsites.",
+                "Created reusable components and integrated legacy jQuery plugins only where needed.",
+                "Established Jest and PHPUnit suites and surfaced results in Jenkins."
             ]
         },
         {
             "company": "Zetta Inc.",
             "location": "Sunnyvale, CA",
             "duration": "Apr 2012 – Jul 2016",
-            "title": "Senior Software Engineer Full Stack",
+            "title": "Senior Software Engineer",
             "responsibilities": [
-                "Focused on frontend development, rebranding, and enhancing features of a cloud-based service in the Backup and Disaster Recovery sector.",
-                "Primary stack included Zend Framework (PHP) and ReactJS, delivering reliable and user-friendly software solutions."
+                "Modernized legacy UI by moving from PHP templates to React and Backbone.",
+                "Exposed data via PHP (Zend) REST APIs backed by MySQL/PostgreSQL.",
+                "Authored Jenkins pipelines to build/test JS bundles and deploy to AWS S3/CloudFront.",
+                "Introduced TDD practices and mentored junior developers."
             ]
         }
     ]
